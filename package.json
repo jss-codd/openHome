@@ -1,0 +1,22 @@
+{
+  "name": "openhome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jss-codd/openHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jss-codd/openHome/issues"
+  },
+  "homepage": "https://github.com/jss-codd/openHome#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
