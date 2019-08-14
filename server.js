@@ -16,6 +16,6 @@ var app = express();
 app.get('/',(req,res)=>{
     res.send("Weclome to AWS EC2")
 });
-app.listen(parseInt(process.env.PORT, 10) || 8080, () => {
+app.listen(parseInt(process.env.PORT, 10) || 3000, () => {
 	console.log("App running");
 });
