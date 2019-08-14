@@ -1,6 +1,6 @@
 /*server.js*/
 const http = require('http');
-const hostname = '127.0.0.1';
+const hostname = 'ec2-54-191-104-59.us-west-2.compute.amazonaws.com';
 const port = 8080;
 const server = http.createServer(function(req, res) {
   res.statusCode = 200;
@@ -10,3 +10,4 @@ const server = http.createServer(function(req, res) {
 server.listen(port, hostname, function() {
   console.log('Server running at http://'+ hostname + ':' + port + '/');
 });
+
